@@ -1,0 +1,199 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Roboto;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: silver;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: whitesmoke;
+  color: #424242;
+  border-radius: 1px;
+  margin-top: 20px;
+}
+
+.buttoni {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: whitesmoke;
+  color: whitesmoke;
+  border-radius: 1px;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-left: 50px;
+}
+
+#img_home {
+  width: 100%;
+  height: 100%;
+}
+
+#div_home {
+  display: flex;
+  height: 100%;
+}
+
+#div_home_left {
+  background-image: linear-gradient(to bottom, #ed008e, #d500ac);
+  flex: 60%;
+  overflow-y: auto;
+}
+
+#div_home_right {
+  flex: 40%;
+}
+
+#table {
+  float: right;
+}
+
+.table_entry {
+  padding-right: 60px;
+  padding-top: 30px;
+}
+
+#page {
+  margin-left: 75px;
+  margin-top: 100px;
+  color: whitesmoke;
+}
+
+h1 {
+  color: #2d0060;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#about {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: whitesmoke;
+}
+
+#contact {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#linkedin {
+  display: flex;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  color: whitesmoke;
+  font-size: 30px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#data {
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: larger;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(219, 215, 215);
+  opacity: 1; /* Firefox */
+}
+
+.label {
+  color: rgb(219, 215, 215);
+}
+
+#label-headline {
+  font-size: 25px;
+}
+
+#label-news {
+  font-size: 20px;
+}
+
+.result {
+  display: flex;
+}
+
+.results {
+  margin-left: 100px;
+}
+
+progress {
+  border-radius: 7px;
+  width: 400px;
+  height: 40px;
+  vertical-align: -50px;
+  margin-left: -11.5%;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+@-webkit-keyframes animate-stripes {
+  100% { background-position: -100px 0px; }
+}
+
+@keyframes animate-stripes {
+  100% { background-position: -100px 0px; }
+}
+
+progress::-moz-progress-bar {
+  background-color: green;
+}
+
+#output-news {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: whitesmoke;
+  color: rgb(32, 32, 32);
+  font-size: medium;
+}
+
+.LI-profile-badge {
+  margin-left: 20px;
+}

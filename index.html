@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    </link>
+
+    <title>Fake News Detection System</title>
+</head>
+
+<body>
+
+    <div id="div_home">
+        <div id="div_home_left">
+            <div id="table">
+                <table>
+                    <tr>
+                        <td class="table_entry">
+                            <a href="/index.html">
+                                Home
+                            </a>
+                        </td>
+                        <td class="table_entry">
+                            <a href="/components/about.html">
+                                About
+                            </a>
+                        </td>
+                        <td class="table_entry">
+                            <a href="/components/contact.html">
+                                Contact
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="page">
+                <h1>Fake News Detector</h1>
+                <div id="data"></div>
+                <div class="result">
+                    <div id="real-fake"></div>
+                    <div class="results" id="real-fake-percentage"></div>
+                </div>
+                <div class="result">
+                    <div id="biased"></div>
+                    <div class="results" id="biased-percentage"></div>
+                </div>
+                <div class="result">
+                    <div id="sarcastic"></div>
+                    <div class="results" id="sarcastic-percetage"></div>
+                </div>
+            </div>
+            <script src="./src/app.js"></script>
+        </div>
+        <div id="div_home_right">
+            <img src="./images/home.jpg" id="img_home" />
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
